@@ -17,7 +17,7 @@ const game = new Phaser.Game(config);
 
 let score = 0;
 let personaje;
-let personajes = ['Personaje1.png', 'Personaje2.png']; // lista de personajes
+let personajes = ['personaje1.png', 'personaje2.png']; // lista de personajes
 let indexPersonaje = 0;
 
 function preload(){
